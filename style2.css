@@ -1,0 +1,103 @@
+/* .babu{
+    width:400px;
+    height: 500px;
+    background-color: red;
+    margin: 200px auto;
+    background-image: url(krishna.jpg);
+    background-size: 100% 100%;
+    background-position: center center;
+    transition: 1s;
+    position: relative;
+}
+.babu:hover{
+    background-size: 150% 150%;
+   
+}
+.japsha{
+    width: 400px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0);
+    overflow: hidden;
+}
+.babu:hover .japsha{
+    background-color: rgba(0, 0, 0, .6);
+}
+.japsha h2{
+    font-size: 14px;
+    font-weight: normal;
+    font-family: tahoma;
+    text-align: center;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    transition: 2s;
+    position: absolute;
+}
+.babu:hover h2{
+    top: 200px;
+    color: aqua;
+}
+.japsha a{
+    text-decoration: none;
+    font-family: tahoma;
+
+  
+    position: absolute;
+    display: block;
+
+
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    text-align: center;
+
+   transition: 1s;
+    margin: auto;
+}
+.japsha:hover a{
+    display: table;
+    bottom: 250px;
+    color: rgb(161, 95, 95);
+}
+.babu:before{
+    content:'';
+    display: block;
+    width: 10px;
+    height: 50px;
+background-color: black;
+background-size: 100% 100%;
+position: absolute;
+top: 0px;
+right: 100%;
+transition: 2s;
+ 
+}
+.babu:hover::before{
+    right: 0px;
+    width: 400px;
+    height: 500px;
+    transform: rotate(180deg);
+} */
+section {
+    box-sizing: border-box;
+    border: 1px solid blue;
+    width: 100%;
+    float: left;
+  }
+  
+  div {
+    margin: 5px;
+    width: 50px;
+    height: 150px;
+  }
+  
+  .left {
+    float: left;
+    background: pink;
+  }
+  
+  .right {
+    float: right;
+    background: cyan;
+  }
+  

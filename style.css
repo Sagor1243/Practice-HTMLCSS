@@ -1,0 +1,32 @@
+body {
+    background-color: aqua;
+}
+h1 {
+    color:brown;
+    background-color: tomato;
+    border: solid black;
+    font-size: arial;
+    font-family: 'Courier New';
+    font-style: oblique;
+    font-display:initial;
+}
+
+p {
+    color: yellow;
+    background-color: chocolate;
+    border: solid black;
+    text-align: center;
+    font-size: 22px;
+}
+h3 {
+    color:rgb(240, 253, 255);
+    background-color: rgb(21, 145, 190);
+    border: rgb(12, 16, 16);
+    text-align: initial;
+    font-family: Gill Sans;
+    
+}
+a{
+    background-color: red;
+}
+    
