@@ -11,5 +11,3 @@ console.log("😃".repeat(5));
 const sagor = 'Because I\'m happy. ';
 
 console.log(`Aagor lyrics for "Happy": ${sagor.repeat(27)}`);
-
-console.log(`Hasan ..`);
