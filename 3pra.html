@@ -311,28 +311,115 @@
             }
         })
             </script> -->
+            <!-- <script>
 
 
-            <div class="ghotona">
-                <h1> </h1>
-            </div>
+
+                $('form#log').submit(function(event){
+        
+                    event.preventDefault();
+        
+                    var name= $('input#name').val();
+                    var lname= $('input#lname').val();
+                    var cell = $('input#cell').val();
+                    var email = $('input#email').val();
+                    var pass = $('input#email').val();
+                
+                
+                
+                    if ( name == '' ) {
+                        $('span#name').html('<span style = "color:red"> This is Filed Requried </span>')
+                    } else {
+                        $('span#name').html('')
+                    } 
+                    if (lname == '') {
+                        $('span#lname').html('<span style="color:red"> This is filed Requried </span>')
+                    } else {
+                        $('span#lname').html('')
+                    } 
+                    if ( cell == '') {
+                         $('span#cell').html('<span style= "color:red"> This is filed Requried </span>')
+                    } else {
+                        $('span#cell').html('')
+                    } 
+                    if ( email == '') {
+                        $('span#email').html('<span style="color:red"> This is files Requried</span>')
+                    }
+                    else {
+                        $('span#email').html('')
+                    }
+                })
+                
+        
+            </script> -->
+
+            <!-- <div class="box">
+                <form id="log">
+                    <input id="name" type="text" placeholder="First Name">
+                    <span id="name"> </span>
+                    <input id="lname" type="text" placeholder="Last Name">
+                    <span id="lname"> </span>
+                    <input id="cell" type="text" placeholder="Phone number">
+                    <span id="cell"> </span>
+                    <input id="email" type="text" placeholder="Email">
+                    <span id="email"></span>
+                    <input id="pass" type="password" placeholder="password">
+                    <span id="pass"> </span>
+                    <input type="submit" value="send">
+                 </form>
+                </div> -->
+
+
+
+
+                <!-- setInterval(function(){
+                    $('.ghotona').append('<h1> hi i am sagor </h1>')
+                },3000) -->
+                
+
+    
+
+
+       
+            
+           
+        
         
       
     <script src="jquery-3.6.3.min.js"></script>
 
 
+      <div class="ghotona">
+     <h1></h1>
+      </div>
 
-    <script>
+ 
 
-
-
-        setInterval(function(){
-            $('.ghotona').append('<h1> hi </h1>');
-        }, 3000);
-
+<script>
 
 
-    </script>
+// var value = 2 
+
+
+
+// while( value <= 20) {
+//     $('.ghotona').append('i love you' + value + '<br/>')
+
+//     value ++;
+// }
+
+var value = 100
+
+
+while (value >= 20 ) {
+    $('.ghotona').append('hi ami tmk valobashi' + value + '<br />')
+
+
+    value --;
+}
+
+
+</script>
 
   
 
