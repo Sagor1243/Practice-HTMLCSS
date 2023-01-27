@@ -1,16 +1,25 @@
-*{
-    padding: 0px;
-    width: 0px;
-}
+/* 
 
 
-.div{
+.container{
     width: 1200px;
     height: 500px;
 }
+.imgwrapper{
+ background-color:red;
+}
 
+.imgwrapper img{
+    width:700px;
+    height:500px;
+} */
+/* .item{
+    background-color: red;
+    width: 200px;
+    height: 150px;
+} */
 
-.div img{
-    width: 1200px;
-    height: 500px;
+tomi{
+    width: 100px;
+    height: 200px;
 }
