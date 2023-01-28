@@ -18,8 +18,20 @@
     width: 200px;
     height: 150px;
 } */
+*{
+    margin: 0px;
+    padding: 0px;
+}
 
-tomi{
-    width: 100px;
-    height: 200px;
+.gallery{
+    width: 500px;
+    height: auto;
+    padding: 50px; 
+    background-color: green;    
+    margin: 50px auto;
+}
+.img-box{
+    width: 23%;
+    height: 230px;
+    display: inline-block;
 }
