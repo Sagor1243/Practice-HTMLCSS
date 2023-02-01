@@ -4,3 +4,11 @@
     background-color: red;
     margin: 50px auto;
 }
+p{
+    background-color: aqua;
+    font-family: tahoma;
+    display: table;
+    margin: auto;
+    text-align: center;
+
+}
