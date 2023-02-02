@@ -5,4 +5,20 @@ button{
     text-align: center;
     display: block;
     margin: auto;
+    font-family: tahoma;
+}
+
+.body{
+
+
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+    position: relative;
+}
+.body h2{
+    position: absolute;
+    font-weight: tahoma;
+    text-align: center;
+
 }
