@@ -20,5 +20,7 @@ button{
     position: absolute;
     font-weight: tahoma;
     text-align: center;
+    background-color: green;
+    display: table;
 
 }
