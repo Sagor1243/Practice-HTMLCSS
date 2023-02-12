@@ -22,3 +22,60 @@
 [submit "Submit"]
 </body>
 </html>
+
+
+
+<?php
+
+add_theme_support('menu')
+add_theme_support('widgets')
+add_theme_support('custom_logo')
+add_theme_support('custom-header')
+add_theme_support('custom-background')
+add_theme_support('post-thumbnails')
+add_theme_support('post-formats',['video','audio''gallery',])
+
+
+
+regster_nav_menu([
+
+    'mm'  => 'main menu'
+     'm2'= 'top menu'
+      'm3' => 'footer menu'
+
+
+
+])
+
+
+
+
+register_sidebar([
+
+   'name' => 'left sidebar'
+     is > q1
+
+])
+register_sidebar([
+
+name => 'right sidebar'
+  id => q2
+])
+
+
+register_post_type('team', [
+
+   'public' => true,
+   labels => [
+     
+   'name' => 'Notice Board'
+   all_items => 'all notice'
+   'add new' => 'Add Notice'
+      
+   ]
+   'support' = ['titel' 'thumbnails']
+
+
+])
+    
+?>
